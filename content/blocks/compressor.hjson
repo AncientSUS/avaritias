@@ -1,8 +1,8 @@
 type: GenericCrafter
 name:"ультимативный компрессор"
 description:"CAT топ"
-outputItem: infinity-item/2
-size:7
+outputItem: infinity-item/10
+size:8
 hasPower:true
 hasItems:true
 craftTime:2400
