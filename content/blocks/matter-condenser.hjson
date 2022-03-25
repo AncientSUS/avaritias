@@ -1,16 +1,16 @@
 type:GenericSmelter
 name:"конденсатор материи"
 description:"делает материю."
-outputLiquid:matter/1
+outputLiquid:matter/100
 size:2
 hasPower:true
 hasLiquids: true
 craftTime:30
 updateEffect:steam
 consumes: {
-power: 10000
+power: 1000
 }
 requirements:[
-infinity-item/1000
+infinity-item/100
 ]
 category:crafting
