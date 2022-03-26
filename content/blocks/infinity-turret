@@ -1,0 +1,78 @@
+{
+
+	"type": "ItemTurret",	"name": "Пушка бесконечности",
+
+	"description": "Стреляет бесконечным уроном, но лишь раз в минуту",
+
+	"health": 20000,
+
+	"size": 3,
+
+	"shots": 1,
+
+	"alternate": "true",
+
+	"itemCapacity": 40,
+
+	"reloadTime": 10,
+
+	"range": 175,
+
+
+
+	"spread": 5,
+
+	"inaccuracy": 2.5,
+
+	"rotateSpeed": 5,
+
+	"targetGround": "True",
+
+	"targetAir": "True",
+
+   "ammoUseEffect": "none",
+
+	"ammoTypes": {
+
+		"infinity-item": {
+
+			"type": "BasicBulletType",
+
+			"lifetime": 60,
+
+			"speed": 100,
+
+			"damage": 100000000,
+
+            "shootEffect": "casing1",
+
+			"ammoMultiplier": 25,
+
+        "homingRange": 0,
+
+        "homingPower": 0,
+
+        "collidesAir": true, 
+
+        "collidesGround": true,
+
+        "collides": true, 
+
+        "keepVelocity": true,
+
+		}
+
+
+	},
+
+	"requirements": [
+
+		{ "item": "infinity-item", "amount": 100 }
+
+
+	],
+
+	"category": "turret"
+
+
+}
