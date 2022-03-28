@@ -16,7 +16,8 @@
 
 	"itemCapacity": 40,
 
-	"reloadTime": 75,
+	"reloadTime": 9000,
+	
 
 	"range": 30000,
 
