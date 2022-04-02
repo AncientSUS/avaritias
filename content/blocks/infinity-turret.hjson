@@ -49,7 +49,7 @@
 
             "shootEffect": "casing1",
 
-			"ammoMultiplier": 0.001,
+			"ammoMultiplier": 1,
 
         "homingRange": 0,
 
